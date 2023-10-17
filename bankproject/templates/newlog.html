@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login2</title>
+</head>
+<body>
+
+<form action="form" method="post">
+     {% csrf_token %}
+    <button style="background-color: #4CAF50;">
+    <a class="btn btn-warning" href="{% url 'form' %}">Go</a>
+        </button>
+ </form>
+<h2>Click here to continue</h2>
+
+
+
+</body>
+</html>
